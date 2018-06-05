@@ -1,0 +1,14 @@
+OBJ = lab.as
+ASFLAGS = -c -g --gdwarf-2
+LDFLAGS = -static
+DEPS = defs.h
+
+
+all: $(OBJ)
+        as --gdwarf-2 -o $(OBJ).o -c $(OBJ)
+        ld $(LDFLAGS) -o lab $(OBJ).o
+
+.PHONY: clean
+
+clean:
+        rm $(OBJ).o lab
