@@ -20,6 +20,7 @@ def size_comparison(file_name, amount_of_information, extension):
         else:
             print(" amount of information is the same as file size: " + str(amount_of_information))
 
+#Testing lines
 
 def to_bits(s):
     result = []
