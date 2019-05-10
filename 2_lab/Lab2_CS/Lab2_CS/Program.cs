@@ -8,6 +8,7 @@ namespace Lab2_CS
 {
     class Program
     {
+//Some new comments
         static void Main(string[] args)
         {
             Console.WriteLine("input first number");
